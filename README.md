@@ -1,4 +1,4 @@
-#Chitchat 💻
+# Chitchat 💻
 A Firebase WebRTC Video Chat App 
 
 In this GitHub repo will use Firebase Cloud Firestore for signalling in a WebRTC Video CHAT Application.
@@ -7,28 +7,28 @@ We will use WebRTC API in our browser and Cloud Firestore as Signaling Server.
 
 The RTC IceCandidate interface—part of the WebRTC API—represents a candidate Interactive Connectivity Establishment (ICE) configuration which may be used to establish an RTCPeerConnection .An ICE candidate describes the protocols and routing needed for WebRTC to be able to communicate with a remote device.
 
-##Steps -
+## Steps -
 
 1. For this ,first Create and set up a Firebase project.
 2. Enable Cloud Firestore and Create database in the Cloud Firestore pane.
 3. Select the Start in test mode.
 4. Clone the GitHub repository from the command line:
-   ###git clone https://github.com/XitizVerma/Chitchat--Video-Calling-WebRTC-App
+   ### git clone https://github.com/XitizVerma/Chitchat--Video-Calling-WebRTC-App
 5. Install the Firebase Command Line Interface.
-   ###npm -g install firebase-tools
+   ### npm -g install firebase-tools
    The Firebase Command Line Interface (CLI) allows us to serve our web app locally and deploy our web app to Firebase Hosting.
 6. Verify that the CLI has been installed correctly by running the following command:
-   ###firebase --version
+   ### firebase --version
 7. Make sure the version of the Firebase CLI is v6.7.1 or later.
 8. Authorize the Firebase CLI by running the following command:
-   ###firebase login
+   ### firebase login
 9. Associate your app with your Firebase project by running the following command:
-   ###firebase use --add
+   ### firebase use --add
 10. When prompted, select your Project ID, then give your Firebase project an alias.
 An alias is useful if you have multiple environments (production, staging, etc). However, for this codelab, let's just use the alias of default.
 11. You're ready to actually start work on our app! Let's run the app locally!
 Run the following Firebase CLI command:
-###firebase serve --only hosting
+### firebase serve --only hosting
 
 Your command line should display the following response: hosting: Local server: http://localhost:5000
 We're using the Firebase Hosting emulator to serve our app locally.
